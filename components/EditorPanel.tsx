@@ -42,7 +42,7 @@ export interface EditorPanelProps {
 }
 
 const Monaco = dynamic(() => import("../components/Monaco"), {
-  ssr: false
+  ssr: true
 });
 
 export default function EditorPanel({
